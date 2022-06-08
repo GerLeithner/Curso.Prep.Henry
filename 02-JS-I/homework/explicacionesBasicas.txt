@@ -1,0 +1,30 @@
+EJERCICIO 1 
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos 
+como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente 
+cualquier agujero en tu comprensión.
+
+	* Variables
+    Es como una unidad, una cajita o compartimento en el que podemos guardar o almacenar un dato (de diferentes tipos) para usarlo luego.
+    Se le asigna un nombre para ello y para generar una se usa primero la palabra mágica "var"
+
+	* Strings
+    Son los datos tipo texto, como una cadena de caracteres (simbolitos), palabras, frases y numeros pero en forma de simbolo.
+    Para definir uno se usan comillas simples o dobles
+
+	* Funciones (argumentos, `return`)
+    Son cachitos de códigos que realizan una acción y pueden devolvernos un resultado, y para invocarlo le damos un nombre.
+    pudiendo darles ademas los llamados argumentos (datos) para que los use, permitiéndonos así automatizar y ahorrar código.
+    Para que nos retorne un resultado, del tipo que sea, utilizamos la palabra "return" seguido de lo que queremos que devuelva.
+    Todo lo que esté luego del "return" no se ejecutará.
+    Las Funciones tienen un rango de acción ("scopes"), están delimitiadas y las variables que se declares e inicialicen 
+    dentro de ellas no valdrán afuera.
+    Lo unico que podemos mandar "hacia afuera" es lo que esté a la derecha del "return".
+
+	* Declaraciones `if`
+    Es un statement (un renglón de código, del tipo instrucción) que nos permite preguntarle al intérprete si una condicion es cierta o no 
+    y en base a eso realizar distintas acciones según el caso. Si tal cosa es verdadero hacé esto, sino lo otro. Es la sentencia lógica más 
+    básica.
+
+	* Valores booleanos (`true`, `false`)
+    Son datos de tipo lógicos, que pueden alternar solo entre dos valores, 1 ó 0, verdadero o falso (binarios) y sirven como condicion
+    en las sentencias condicionales.
