@@ -1,0 +1,11 @@
+EJERCICIO 1. 
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras
+explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Arrays
+    Los arrays son como colecciones de distintos objetos, una lista de elementos, que tienen su lugar enumerado dentro suyo.
+    Al llamar a la lista traemos todos los elementos que la componen, los mismos pueden ser de tipos distintos (peras y manzanas)
+    y se arrancan a contar en 0, no en 1.
+    Tienen metodos propios como el .length que nos da su largo (cantidad de elementos) y se pueden quitar o sumar elementos en la lista.
+        Al final: push / pop (agregrar / quitar).
+        Al principio: unshift / shift.
