@@ -1,0 +1,15 @@
+EJERCICIO 1 
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando
+a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+Es un statement (o instrucción) que le podemos dar a JS para que ejecute un cacho de codigo tantas veces como le indiquemos.
+Tiene 3 argumentos, la variable que cuenta las vueltas, la condicion para repetirse (cuantas vueltas dará el bucle)
+y el paso entre vuelta y vuelta.
+
+* `&&`, `||`, `!`
+Son operadores lógicos que nos permiten comparar expresiones y determinar si la comparacion es cierta o no.
+'&&' o AND pregunta si la expresion A y B son ciertas al mismo tiempo (pueden ser más de dos).
+'||' o OR pregunta si alguna de las dos (o más) expreisones son ciertas.
+'!' o NOT lo que hace es dar el valor opuesto a lo que está a su derecha, si está antes de un TRUE lo convierte en FALSE y biceversa.
+Si está antes de un === ( !== ) pregunta si las expresiones a la izquierda y derecha son distintas.
