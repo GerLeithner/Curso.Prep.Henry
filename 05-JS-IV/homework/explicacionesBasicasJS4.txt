@@ -1,0 +1,31 @@
+EJERCICIO 1. 
+    En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando
+    a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+        Son contenedores de datos que se usan para representar la realidad, sus datos pueden ser características o acciones,
+        que para poder ordenarlas y acceder a ellas se les da un nombre y un valor a cada una.
+
+	* Propiedades
+        o atributos, son una característica del objeto, se la llamará por su nombre y tendrá un valro (key - value).
+        El valor como en los arrelgos (que son objetos) puede ser de distinto tipo, nuemero, string, arrays e incluso otro objeto.
+        
+	* Métodos
+        son como los atributos pero hacen referencia a un comportamiento o acción de un objeto, se los representa como funciones.
+        También se accedar a ellos llamandolas por un nombre.
+        El conjunto de propiedades y métodos conforman un objeto dado.
+
+	* Bucle `for…in`
+        Es otro bucle de Js que se usa para recorrer objetos, ya que los atributos no están ordenados según un orden numérico sino que 
+        para acceder a ellos usamos la key, el for común no sirve. El for...in lo que hace es usar una variable auxiliar que en vez de contar
+        va ocupando en cada vuelta la key. Para obtener el valor de la key lo hacemos igual que con el contador en el for común:
+
+        const objeto = {
+        atributo = valor;
+        }
+        for (var key in objeto){
+        return objeto[key];    
+        }
+        
+
+	* Notación de puntos vs notación de corchetes
