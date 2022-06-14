@@ -1,0 +1,13 @@
+EJERCICIO 1
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando
+ a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `prototype`
+Es la forma que tiene Js para que diferentes objetos compartan propiedades y metodos. Un prototipo sería como el objeto 
+padre de otro, este segundo objeto hereda del padre sus metodos y atributos (o propiedades) y puede acceder a ellos.
+En Js todos los objetos tienen prototipo y existen cadenas de prototipos.
+En términos más complejos un objeto puntual (una instancia de una clase) obtiene de su protipo sus metodos y atributos. 
+Aunque los mismos pueden ser modificados en dicha instancia o clase.
+
+* _Constructors_ (de Clases)
+Es un método (función) especial que permite crear e inicializar un objeto nuevo a partir de una clase.
